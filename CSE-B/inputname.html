@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+First Name <input type="text" placeholder="enter name here" id="First" ><br>
+Last Name <input type="text" placeholder="enter name here" id="Last" ><br>
+<input id="btn" type="submit"><br>
+
+<script type="text/javascript">
+	document.getElementById('btn').onclick=function()
+	{
+		firstname=document.getElementById('First').values;
+		lastname=document.getElementById('Last').values;
+
+		console.log(firstname+' '+lastname);
+	}
+</script>
+</body>
+</html>
