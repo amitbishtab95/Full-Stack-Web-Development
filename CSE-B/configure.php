@@ -2,9 +2,9 @@
 $hostName='localhost';
 $userName='root';
 $password='';
-$databaseName='CSEB2020';
+$databaseName='cseb';
 
-if(mysqli_connect($hostNamE,$userName,$password,$databaseName)){
+if(mysqli_connect($hostName,$userName,$password,$databaseName)){
 	echo 'connection succesfull';
 }
 else
