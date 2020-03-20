@@ -1,0 +1,24 @@
+/*by amit*/
+	body { 
+	width: 70%; 
+	max-width: 800px; 
+	min-width: 480px; 
+	margin: 0 auto; 
+	background-color: brown;
+	} 
+
+p {
+  font-family: verdana;
+  font-size: 40px;
+  color: silver;
+}
+.head
+{
+	color: yellow;
+	font-size: 80px;
+}
+.form{
+	font-size: 30px;
+	color:white;
+}
+
